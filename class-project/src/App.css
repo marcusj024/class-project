@@ -1,0 +1,71 @@
+.app-shell {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #f8fafc 0%, #eef2ff 100%);
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+    background: #111827;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+}
+
+.nav-link {
+    color: #e5e7eb;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.7rem 1.25rem;
+    border-radius: 9999px;
+    transition: 0.2s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    background: #6366f1;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1.5rem;
+}
+
+.page {
+    max-width: 700px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.85);
+    border: 1px solid #dfe7ff;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(79, 70, 229, 0.08);
+    padding: 2.5rem;
+    text-align: left;
+}
+
+.eyebrow {
+    display: inline-block;
+    margin: 0 0 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #4f46e5;
+}
+
+.page h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.page p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #374151;
+}
